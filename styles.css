@@ -9,6 +9,12 @@ body{
     margin-left: 10px;
 }
 
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 #input-div{
     background-color: black;
     display: flex;
@@ -20,6 +26,7 @@ body{
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
+    font-family: "Itim";
     
 }
 
@@ -35,6 +42,8 @@ body{
     text-overflow: ellipsis;
     overflow-y:auto;
     text-align: center;
+    font-family: "Itim";
+    box-shadow:   4px 4px 10px rgb(39, 38, 38);
     
 }
 
@@ -50,6 +59,18 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     
+}
+
+.title-txt{
+    color: red;
+}
+
+.notes-txt{
+    font-weight: normal;
+}
+
+.kill-btn{
+    color: red;
 }
 
 
